@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/namelogo.png" alt="">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Kota Bercey</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+        <img src="images/face-image.jpeg" alt="A picture of Kota Bercey" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Algorithm based Coding</h3>
+                <p>Much of my schoolwork has involved programming algorithms using Java. Topics such as Object Oriented Programming, introductory data structures, and introductions to topics such as recursion were covered.</p>
+            </div>
+
+            <div class="service">
+                <h3>Front-End</h3>
+                <p>Much of my recent work, as of 2022, has been involving website development, primarily with html and css, and the Laravel Framework. Outside of work, many of my smaller personal projects also primarily involve html, css, and javascript to create small scale websites with a focus on a specific function or feature.</p>
+            </div>
+
+            <div class="service">
+                <h3>Back-End</h3>
+                <p>Part of my work with website developing. Mainly altered database tables in MariaDB, and utilized PHP to add functionality between the database tables and the website.</p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">College Student and Full-Stack Dev</p>
+
+        <div class="about-me__body">
+            <p>I am an upcoming sophomore at the University of Washington, College of Engineering.</p>
+        </div>
+
+        <img src="images/face-image2.jpeg" alt="" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle">A collection of my works</p>
+        <div class="portfolio">
+            <!-- Portfolio Item -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="images/kcc-desktop-site.PNG" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio Item -->
+            <a href="portfolio-item2.html" class="portfolio__item">
+                <img src="images/portfolio-site.PNG" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:kotab@uw.edu" class="footer__link">kotab@uw.edu</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/kota-bercey/" class="social-list__link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/koota1/Portfolio-Site" class="social-list__link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>

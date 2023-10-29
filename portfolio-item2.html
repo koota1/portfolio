@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/namelogo.png" alt="">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Developing this<strong>Portfolio Website</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Personal Project</p>
+        <img src="images/html-template.PNG" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            Creating this portfolio website began from scratch with a blank index.html page. A mostly front=end project, I developed with HTML, CSS, and a small amount of JavaScript. The largest focus of this project was on the CSS.
+        </p>
+        <img src="images/portfolio-site.PNG" alt="">
+        <p>
+            Incorporating the BEM code naming allows for easy reading and understanding of the CSS document. Using custom properties allows me to make site wide changes such as changing the color scheme, font type, and font weight of every aspect of the website all at once, without having to go into the code and change the styles individually. A heavy focus of the website was to allow for versatility with different screen sizes. Using the @media function, I scaled elements on the page using CSS based on what size the webpage was on the user's end. Using CDNJS and Google APIs allowed for a professional finish in both the font and font consistency of the page, as well as any logos used.
+        </p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:kotab@uw.edu" class="footer__link">kotab@uw.edu</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/kota-bercey/" class="social-list__link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/koota1/Portfolio-Site" class="social-list__link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/namelogo.png" alt="">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Kids Code Club <strong>Full-Stack Dev</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Internship</p>
+        <img src="images/kcc-logo.PNG" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            Kids Code Club is a non-profit, government funded coding tutorial website aimed to help children from poor financial backgrounds gain an interest in coding through coding tutorials.
+        </p>
+        <img src="images/kcc-desktop-site.PNG" alt="">
+        <p>
+            For my first project, I was tasked with adding filter functionality to the tutorials, creating a way for users to select different categories of tutorials to fit their needs.
+        </p>
+        <p>
+            By altering database tables, schema, models, and controllers within the Laravel Framework, I was able to introduce more functionality into the current tagging system, increasing the unique tag options available for admins on the site. I then incorporated those back-end changes to the site using HTML, PHP, and CSS.
+        </p>
+        <p>
+            Other tools used in the development of this project were Docker Desktop, Git Bash, and GitHub Desktop, which ensured smooth setup of a development environment, as well as communication with other developers of the site.
+        </p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:kotab@uw.edu" class="footer__link">kotab@uw.edu</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/kota-bercey/" class="social-list__link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/koota1/Portfolio-Site" class="social-list__link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
