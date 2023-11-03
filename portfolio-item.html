@@ -14,7 +14,7 @@
     <header>
         <div class="logo">
             <a href="index.html">
-                <img src="images/namelogo.png" alt="">
+                <img src="images/name-logo.png" alt="">
             </a>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
@@ -33,25 +33,92 @@
     <!-- Introduction -->
     <section class="intro">
         <h1 class="section__title section__title--intro">
-            Kids Code Club <strong>Full-Stack Dev</strong>
+            Kids Code Club <strong>Software Engineer</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">Internship</p>
         <img src="images/kcc-logo.PNG" alt="" class="intro__img">
     </section>
 
     <div class="portfolio-item-individual">
+        <p class="section__subtitle">
+            <strong>Background</strong>
+        </p>
         <p>
             Kids Code Club is a non-profit, government funded coding tutorial website aimed to help children from poor financial backgrounds gain an interest in coding through coding tutorials.
         </p>
-        <img src="images/kcc-desktop-site.PNG" alt="">
-        <p>
-            For my first project, I was tasked with adding filter functionality to the tutorials, creating a way for users to select different categories of tutorials to fit their needs.
+        <img src="images/kcc-desktop-site.PNG" alt="" class="image-container">
+        <p class="section__subtitle">
+            <strong>Project Overview</strong>
         </p>
         <p>
-            By altering database tables, schema, models, and controllers within the Laravel Framework, I was able to introduce more functionality into the current tagging system, increasing the unique tag options available for admins on the site. I then incorporated those back-end changes to the site using HTML, PHP, and CSS.
+            During my internship, I was tasked with implementing a filter system for the Kids Code Club Tutorial landing page.
         </p>
         <p>
-            Other tools used in the development of this project were Docker Desktop, Git Bash, and GitHub Desktop, which ensured smooth setup of a development environment, as well as communication with other developers of the site.
+            I worked closly with the web design team as well as my manager in order to ensure that the solution would be efficient and intuitive.
+        </p>
+        <p class="section__subtitle">
+            <strong>The Problem</strong>
+        </p>
+        <p>
+            Kids Code Club employs a single landing page for all its users, granting access to a wide array of tutorials. However, due to the sheer diversity in tutorial languages, 
+            difficulty levels, and topics, users encounter navigation challenges as there are no search or filtering mechanisms available. The primary objective of the landing page is to 
+            facilitate users in discovering tutorials aligned with their interests. The absence of search and customization options created a notable obstacle for those seeking 
+            engaging tutorial experiences.
+        </p>
+        <p class="section__subtitle">
+            <strong>Phase One: Environment Setup</strong>
+        </p>
+        <p>
+            In the development of our project, we relied on a set of essential tools to establish a robust and collaborative development environment. 
+            These tools, including Docker Desktop, Git Bash, and GitHub Desktop, played a pivotal role in ensuring that our development process was 
+            smooth and efficient.
+        </p>
+        <img src="images/kcc-logos.png" alt="" class="image-container">
+        <p>
+            Docker Desktop was instrumental in maintaining a consistent environment across our team's machines. It allowed us 
+            to create isolated containers with specific dependencies, thus eliminating the dreaded "It works on my machine" issue. This, in turn, 
+            enhanced the portability of our project, making it easy for new team members such as myself to get up to speed without struggling with 
+            complex environment configurations.
+        </p>
+        <p>
+            Git Bash, a command-line interface for Git, was crucial for version control. It enabled us to track code changes, collaborate seamlessly, 
+            and maintain a comprehensive history of our project. By working with Git Bash, we could create and manage branches, ensuring that different 
+            developers could work on various features independently while also facilitating smooth code integration.
+        </p>
+        <p>
+            To make version control even more accessible, we used GitHub Desktop, which provided a user-friendly graphical interface for Git. Its 
+            integration with GitHub, our chosen platform for hosting repositories, streamlined tasks like pushing and pulling code, creating pull requests, 
+            and reviewing changes. This user-friendly interface made Git more approachable, allowing team members who weren't command-line experts to 
+            participate in version control effectively.
+        </p>
+        <p>
+            Docker Desktop, Git Bash, and GitHub Desktop were indispensable in our development environment. They ensured consistency, promoted collaboration, 
+            streamlined our workflows, and made our development process efficient and accessible to all team members. These tools were the backbone of our 
+            project's success, allowing us to work together seamlessly and deliver a high-quality product.
+        </p>
+        <p class="section__subtitle">
+            <strong>Phase Two: Solution</strong>
+        </p>
+        <p>
+            The Kids Code Club website utilized a "tagging" system, which allowed tutorial creators to assign categories to their tutorials. However, due to the fact
+            that they were only visual, it wasn't possible to directly incorporate them into a filtering system as is.
+        </p>
+        <img src="images/tag-example.png" alt="" class=".section__subtitle--intro">
+        <p>
+            I enhanced the tagging system on a website by making various modifications to the database structure, schema, and the components 
+            that manage data and user interactions within the Laravel Framework. These modifications allowed me to expand the range of tags that 
+            administrators can use on the site, offering them more diverse options, as well as assign the tags to the tutorials in the database.
+        </p>
+        <p>
+            I then integrated these behind-the-scenes adjustments into the website's front-end, which is what users see and interact with. I did this by working with HTML, PHP, 
+            and CSS to ensure that the new tagging features were visible and functional for both administrators and regular users. This combined effort improved the website's tagging 
+            system, making it more versatile and user-friendly.
+        </p>
+        <p class="section__subtitle">
+            <strong>Reflection</strong>
+        </p>
+        <p>
+
         </p>
     </div>
 
@@ -66,7 +133,7 @@
                 </a>
             </li>
             <li class="social-list__item">
-                <a href="https://github.com/koota1/Portfolio-Site" class="social-list__link">
+                <a href="https://github.com/koota1/portfolio" class="social-list__link">
                     <i class="fa-brands fa-github"></i>
                 </a>
             </li>

@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+/* image padding */
+.image-container {
+    padding: 20px; /* Adjust the padding value as needed */
+}
+
+.image-container--align {
+    padding: 20px; /* Adjust the padding value as needed */
+    margin-left: em;
+}
+  
+.image-container img {
+max-width: 100%; /* To ensure the image doesn't exceed the container's width */
+}
+
+/* aligns the margins */
+.align-margins {
+    margin: 0;
+    margin-top: 1em; /* Adjust the margin-top value to align the margins as desired */
+}
+
+
 /* Custom Properties */
 
 :root {
